@@ -16,39 +16,17 @@
     <properties>
         <commons-compress-version>1.15</commons-compress-version>
         <maven.build.timestamp.format>yyyyMMdd-HHmm</maven.build.timestamp.format>
-        <module-b-version>1.2</module-b-version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.example</groupId>
             <artifactId>module-b</artifactId>
-            <version>1.2</version>
+            <version>1.2-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>my.example</groupId>
             <artifactId>module-c</artifactId>
-            <version>1.4-SNAPSHOT</version>
-        </dependency>
-
-        <dependency>
-            <groupId>commons-io</groupId>
-            <artifactId>commons-io</artifactId>
-            <version>2.3</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-collections4</artifactId>
-            <version>4.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-            <version>3.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-compress</artifactId>
-            <version>${commons-compress-version}</version>
+            <version>1.2-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>

@@ -11,9 +11,5 @@
     <groupId>org.example</groupId>
     <artifactId>the-root</artifactId>
     <version>1.2-SNAPSHOT</version>
-<!--    <relativePath>../pom.xml</relativePath>-->
   </parent>
-  <properties>
-    <maven.build.timestamp.format>yyyyMMdd-HHmmss</maven.build.timestamp.format>
-  </properties>
 </project>
