@@ -14,7 +14,7 @@
         <version>1.2-SNAPSHOT</version>
     </parent>
     <properties>
-        <commons-compress-version>1.15</commons-compress-version>
+        <commons-compress-version>1.19</commons-compress-version>
         <maven.build.timestamp.format>yyyyMMdd-HHmm</maven.build.timestamp.format>
         <module-b-version>1.2</module-b-version>
     </properties>
