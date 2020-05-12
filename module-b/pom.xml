@@ -5,11 +5,11 @@
 
   <artifactId>module-b</artifactId>
   <packaging>jar</packaging>
-  <version>1.2</version>
+  <version>2.1.0-SNAPSHOT</version>
 
   <parent>
     <groupId>org.example</groupId>
     <artifactId>the-root</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
   </parent>
 </project>

@@ -6,7 +6,7 @@
 
     <groupId>org.example</groupId>
     <artifactId>the-root</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -19,9 +19,18 @@
 
     <modules>
         <module>module-a</module>
-        <!--        <module>module-b</module>-->
-        <!--        <module>module-c</module>-->
+        <module>module-b</module>
+<!--        <module>module-c</module>-->
     </modules>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.example</groupId>
+                <artifactId>module-b</artifactId>
+                <version>1.2</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <distributionManagement>
         <snapshotRepository>
@@ -61,14 +70,14 @@
                 <artifactId>versions-maven-plugin</artifactId>
                 <version>2.7</version>
                 <configuration>
-                    <includes>
-                        <!--                <include>org.codehaus.plexus:*</include>-->
-                        <include>org.example:module-b</include>
-                        <include>my.example</include>
-                    </includes>
-                    <!--                    <excludes>-->
-                    <!--                    <exclude>org.codehaus.plexus:plexus-utils</exclude>-->
-                    <!--                    </excludes>-->
+<!--                    <includes>-->
+<!--                        <include>org.codehaus.plexus:*</include>-->
+<!--                        <include>org.example:module-b</include>-->
+<!--                        <include>my.example</include>-->
+<!--                    </includes>-->
+<!--                    <excludes>-->
+<!--                        <exclude>org.codehaus.plexus:plexus-utils</exclude>-->
+<!--                    </excludes>-->
                 </configuration>
             </plugin>
         </plugins>
